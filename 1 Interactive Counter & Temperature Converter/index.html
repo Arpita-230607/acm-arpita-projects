@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter and Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Counter and Temperature Converter</h1>
+
+    <div class="box">
+        <h2>Number Counter</h2>
+        <p id="count-display">0</p>
+        <button id="increase-btn">Increase</button>
+        <button id="decrease-btn">Decrease</button>
+        <button id="reset-btn">Reset</button>
+    </div>
+
+    <div class="box">
+        <h2>Temperature Converter</h2>
+        <input type="number" id="temp-input" placeholder="Enter temperature">
+        <div class="options">
+            <label>
+                <input type="radio" name="unit" id="to-fahrenheit">
+                to Fahrenheit
+            </label>
+            <label>
+                <input type="radio" name="unit" id="to-celsius">
+                to Celsius
+            </label>
+        </div>
+        <button id="submit-btn">Submit</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

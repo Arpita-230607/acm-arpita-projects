@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.app-container {
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 22px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-section input {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.input-section button {
+  padding: 8px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-name {
+  font-weight: bold;
+}
+
+.todo-date {
+  font-size: 12px;
+  color: gray;
+}
+
+.js-delete-todo-button {
+  background-color: #cc4444;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
